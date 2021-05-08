@@ -1,0 +1,45 @@
+html,
+body{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', monospace;
+    background: rgb(189,195,199);
+    background: linear-gradient(180deg, rgba(189,195,199,1) 6%, rgba(44,62,80,1) 100%);
+}
+.mi{
+    background: rgb(127,54,215);
+    background: radial-gradient(circle, rgba(127,54,215,1) 0%, rgba(77,132,238,1) 100%);
+}
+.nav-link {
+    margin-right: 15px;
+    letter-spacing: 0.5px;
+    justify-content: end;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: end;
+
+}
+.ul .li .a{
+    display: inline-block;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #5863f3;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
